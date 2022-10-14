@@ -40,74 +40,62 @@
                 ConsoleKeyInfo key = Console.ReadKey();
                 if (key.Key == ConsoleKey.Q)
                 {
-                    Console.Beep(octave4[0], 500);
-                    Console.Clear();
+                    Sound(octave4[0]);
                 }
 
                 if (key.Key == ConsoleKey.W)
                 {
-                    Console.Beep(octave4[1], 500);
-                    Console.Clear();
+                    Sound(octave4[1]);
                 }
 
                 if (key.Key == ConsoleKey.E)
                 {
-                    Console.Beep(octave4[2], 500);
-                    Console.Clear();
+                    Sound(octave4[2]);
                 }
 
                 if (key.Key == ConsoleKey.R)
                 {
-                    Console.Beep(octave4[3], 500);
-                    Console.Clear();
+                    Sound(octave4[3]);
                 }
 
                 if (key.Key == ConsoleKey.T)
                 {
-                    Console.Beep(octave4[4], 500);
-                    Console.Clear();
+                    Sound(octave4[4]);
                 }
 
                 if (key.Key == ConsoleKey.Y)
                 {
-                    Console.Beep(octave4[5], 500);
-                    Console.Clear();
+                    Sound(octave4[5]);
                 }
 
                 if (key.Key == ConsoleKey.U)
                 {
-                    Console.Beep(octave4[6], 500);
-                    Console.Clear();
+                    Sound(octave4[6]);
                 }
 
                 if (key.Key == ConsoleKey.I)
                 {
-                    Console.Beep(octave4[7], 500);
-                    Console.Clear();
+                    Sound(octave4[7]);
                 }
 
                 if (key.Key == ConsoleKey.O)
                 {
-                    Console.Beep(octave4[8], 500);
-                    Console.Clear();
+                    Sound(octave4[8]);
                 }
 
                 if (key.Key == ConsoleKey.P)
                 {
-                    Console.Beep(octave4[9], 500);
-                    Console.Clear();
+                    Sound(octave4[9]);
                 }
 
                 if (key.Key == ConsoleKey.A)
                 {
-                    Console.Beep(octave4[10], 500);
-                    Console.Clear();
+                    Sound(octave4[10]);
                 }
 
                 if (key.Key == ConsoleKey.S)
                 {
-                    Console.Beep(octave4[11], 500);
-                    Console.Clear();
+                    Sound(octave4[11]);
                 }
 
                 if (key.Key == ConsoleKey.Escape)
@@ -129,74 +117,62 @@
 
                 if (key.Key == ConsoleKey.Q)
                 {
-                    Console.Beep(octave5[0], 500);
-                    Console.Clear();
+                    Sound(octave5[0]);
                 }
 
                 if (key.Key == ConsoleKey.W)
                 {
-                    Console.Beep(octave5[1], 500);
-                    Console.Clear();
+                    Sound(octave5[1]);
                 }
 
                 if (key.Key == ConsoleKey.E)
                 {
-                    Console.Beep(octave5[2], 500);
-                    Console.Clear();
+                    Sound(octave5[2]);
                 }
 
                 if (key.Key == ConsoleKey.R)
                 {
-                    Console.Beep(octave5[3], 500);
-                    Console.Clear();
+                    Sound(octave5[3]);
                 }
 
                 if (key.Key == ConsoleKey.T)
                 {
-                    Console.Beep(octave5[4], 500);
-                    Console.Clear();
+                    Sound(octave5[4]);
                 }
 
                 if (key.Key == ConsoleKey.Y)
                 {
-                    Console.Beep(octave5[5], 500);
-                    Console.Clear();
+                    Sound(octave5[5]);
                 }
 
                 if (key.Key == ConsoleKey.U)
                 {
-                    Console.Beep(octave5[6], 500);
-                    Console.Clear();
+                    Sound(octave5[6]);
                 }
 
                 if (key.Key == ConsoleKey.I)
                 {
-                    Console.Beep(octave5[7], 500);
-                    Console.Clear();
+                    Sound(octave5[7]);
                 }
 
                 if (key.Key == ConsoleKey.O)
                 {
-                    Console.Beep(octave5[8], 500);
-                    Console.Clear();
+                    Sound(octave5[8]);
                 }
 
                 if (key.Key == ConsoleKey.P)
                 {
-                    Console.Beep(octave5[9], 500);
-                    Console.Clear();
+                    Sound(octave5[9]);
                 }
 
                 if (key.Key == ConsoleKey.A)
                 {
-                    Console.Beep(octave5[10], 500);
-                    Console.Clear();
+                    Sound(octave5[10]);
                 }
 
                 if (key.Key == ConsoleKey.S)
                 {
-                    Console.Beep(octave5[11], 500);
-                    Console.Clear();
+                    Sound(octave5[11]);
                 }
 
                 if (key.Key == ConsoleKey.Escape)
@@ -204,6 +180,11 @@
                     Main();
                 }
             }
-        }      
+        }    
+        static void Sound(int ruchki)
+        {
+            Console.Beep(ruchki, 300);
+            Console.Clear();
+        }
     }
 }
